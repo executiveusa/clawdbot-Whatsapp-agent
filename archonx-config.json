@@ -1,0 +1,34 @@
+{
+  "archonx": {
+    "version": "1.0.0",
+    "agents": {
+      "pauli": {
+        "enabled": true,
+        "name": "Pauli Agent",
+        "model": "claude-3-5-sonnet-20241022",
+        "capabilities": [
+          "quantum-operations",
+          "physics-simulations",
+          "advanced-analysis"
+        ]
+      },
+      "synthia": {
+        "enabled": true,
+        "name": "Synthia Agent",
+        "model": "claude-3-5-sonnet-20241022",
+        "capabilities": [
+          "data-synthesis",
+          "integration",
+          "analysis"
+        ]
+      }
+    },
+    "orchestration": {
+      "enabled": true,
+      "coordinator": "pauli"
+    },
+    "paulis-place": {
+      "workspace": "~/.openclaw/archonx/pauli-workspace"
+    }
+  }
+}
