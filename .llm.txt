@@ -1,0 +1,43 @@
+# clawdbot-Whatsapp-agent.llm.txt
+# Machine-readable context for AI agents and LLMs
+
+## IDENTITY
+name: clawdbot-Whatsapp-agent
+codename: ClawdBot / OpenClaw 🦞
+primary_agent: ClawdBot (Multi-Channel Messaging)
+org: executiveusa
+repo: https://github.com/executiveusa/clawdbot-Whatsapp-agent
+
+## ROLE
+Multi-channel messaging agent handling 14+ channels (WhatsApp, Telegram, Slack,
+Discord, Teams, Signal, etc.). Routes intents to specialist agents. This IS the
+OpenClaw framework — the communication backbone of the fleet.
+
+## TECH STACK
+- Node.js 22+, TypeScript
+- OpenClaw framework (🦞)
+- Baileys (WhatsApp), grammy (Telegram), Lit/LitElement UI
+- OpenClaw Gateway: WS :18789, HTTP :18790
+- Redis for session persistence
+
+## HIERARCHY
+archon-os > Agent Zero > Devika (Lead Delegator) > ClawdBot
+
+## INTENT ROUTING
+- Lead → Maya
+- Tech → Devika
+- Voice → SYNTHIA
+- Meeting → Pauli's Place
+- Creative → DARYA
+- Escalation → Agent Zero
+
+## KEY FILES
+- AGENT_PROTOCOL.md, ROLE_INSTRUCTIONS.md
+- AGENTS.md, SOUL.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md, BOOT.md
+- openclaw CLI
+
+## INSTRUCTIONS FOR AI AGENTS
+1. ClawdBot is the messaging hub — all external communication flows through here
+2. Intent routing determines which agent handles each conversation
+3. All conversations logged with full audit trail
+4. Report to Devika with conversation summaries and lead scores
